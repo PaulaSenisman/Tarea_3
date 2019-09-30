@@ -24,3 +24,13 @@ Si length(listaDeNumeros)
 Si ambos números son iguales 
 
 **Ejercicio 6**
+
+**Ejercicio 7**
+
+**Ejercicio 8**
+
+**Ejercicio 9**
+
+**Ejercicio 10**
+
+**Ejercicio 11**
