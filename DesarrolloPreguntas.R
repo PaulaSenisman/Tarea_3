@@ -1,11 +1,11 @@
 listaDeNumeros <- list(2,5,6,2,1,5,6,10,11,20,15)
 listaDeNumeros[5]
 listaDeNumeros[0]
-#Se prueba el número que se encuentra en la posición 5
-#Se prueba el número que se encuentra en la posición 0
-#Se prueba colocando un número mayor a la cantidad de elementos.
+#Se prueba el n?mero que se encuentra en la posici?n 5
+#Se prueba el n?mero que se encuentra en la posici?n 0
+#Se prueba colocando un n?mero mayor a la cantidad de elementos.
 listaDeNumeros[22]
-#Se prueba colocando un número negativo.
+#Se prueba colocando un n?mero negativo.
 listaDeNumeros[-2]
 #Ejercicio 2
 unlist(listaDeNumeros[5])
@@ -14,12 +14,12 @@ listaDeNumeros[3]
 unlist(listaDeNumeros[3])
 listaDeNumeros[-3]
 unlist(listaDeNumeros[-3])
-#ayuda de la función
+#ayuda de la funci?n
 
 if(listaDeNumeros[5]+1>0){
   print("se cumple")
 }
-#arrojo error 
+#arrojo error holaaaaa
 
 if(unlist(listaDeNumeros[5])+1>0){
   print("se cumple")
