@@ -18,19 +18,32 @@ La variable nombre_variable debe ser cambiada listaDeNumeros para que funcione e
 Su resultado indica el númerop de elementos que contiene la variable.
 
 **Ejercicio 5**
-Cuando valorInicial <- 5 y valorFinal <- 20 se genera una secuencia de números ordenados desde el 5 al 20 contenidos
-Si se invierte y el valorInicial<- 20 y valorFinal <- 5
-Si length(listaDeNumeros)
-Si ambos números son iguales 
+Cuando valorInicial <- 5 y valorFinal <- 20 se genera una secuencia de números ordenados desde el 5 al 20.
+
+Si se invierte y el valorInicial<- 20 y valorFinal <- 5, la secuencia de números generados de 1 en 1, se invierte comenzando desde el número 20 y desendiendo hasta el 5.
+
+Si length(listaDeNumeros), se genera una secuencia de números que comienza del 5 hasta el 11 que corresponde a la cantidad de elementos en la variable listaDeNumeros.
+
+Si ambos números son iguales, se genera una secuencia con un solo dato, el número en cuestión. 
 
 **Ejercicio 6**
+Al ejecutar el ejemplo FOR-LOOP se genera un bucle en que se repite "cuento" antes de cada número y "misisipis" después de este.
 
 **Ejercicio 7**
+Al adaptar el código se imprime un bucle con los elementos de la variable listaDeNumeros, con la palabra "cuento" delante de este y "misisipis" detrás de.
 
 **Ejercicio 8**
+Se adapta la condición anterior utilizando la condicional "if" con el fin de determinar si el número es par o impar, esto se realiza a través de establecer si i in listaDeNumeros es o no divisible por dos. 
 
 **Ejercicio 9**
+Se creo una función llamada funcionelectoal en la cual se incluye if y else if para contener las funciones dadas, de esta forma poder utilizar y probar todos los casos. Se realizaron ejemplos asociados.
 
 **Ejercicio 10**
+Al crear la función que sume dos elementos, en este caso 3 y 4, se genera el resultado que es 7, se puede utilizar este comando para realizar diversas operaciones matemáticas tales como la resta, multiplicación y división, donde los resultados obtenidos son: 5 (8-2),10 (5*2) y 5 (15/3), los números serán asignados en relación a la posición establecida de a y b. 
 
 **Ejercicio 11**
+Se crearon dos funciones en torno a las figuras.
+
+La primera en relación a los rectángulos, calculando el área sombreada, para esto se calculo primero el área de la figura exterior y posteriormente la del interior, se utilizo Area_rectangulo< function(b1,h1,b2,h2){b1*h1-b2*h2} donde b1 y h1 son la base del rectángulo y b2 y h2 son la altura de este.
+
+En segundo lugar se determino el área sombreada de los círculos utilizando la función Area_circulo<-function(r1,r2){abs((pi*r1^2)-(pi*r2^2))} donde r1 corresponde al área del círculo exterior y r2 la del círculo interior.  
